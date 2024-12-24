@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Базовая тема приложения -->
+    <style name="Base.Theme.SwitchOnOff" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">#F5F5F5</item> <!-- Светло-серый фон -->
+        <item name="android:textColorPrimary">#000000</item> <!-- Черный текст -->
+    </style>
+
+    <!-- Основная тема -->
+    <style name="Theme.SwitchOnOff" parent="Base.Theme.SwitchOnOff" />
+</resources>
